@@ -1,7 +1,1201 @@
 {
-  "updatedAt": null,
-  "health": [],
-  "launches": [],
-  "signals": [],
-  "candidates": []
+  "updatedAt": "2026-11-05T22:07:33.907Z",
+  "health": [
+    {
+      "name": "DEX profiles",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "DEX boosts",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "Hacker News RSS",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "Reddit technology RSS",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "Pump.fun sample",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "X / Twitter",
+      "ok": false,
+      "error": "X_BEARER_TOKEN not configured"
+    },
+    {
+      "name": "GMGN",
+      "ok": false,
+      "error": "GMGN_NEWS_ENDPOINT not configured; no verified public news API"
+    },
+    {
+      "name": "Pons RPC",
+      "ok": false,
+      "error": "PONS_RPC_URL and PONS_FACTORY_ADDRESS required"
+    }
+  ],
+  "launches": [
+    {
+      "chain": "solana",
+      "address": "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
+      "name": "Cougar of Great Excitement paired to SOL",
+      "symbol": "",
+      "description": "Cougar of Great Excitement paired to SOL",
+      "image": "https://cdn.dexscreener.com/cms/images/mHsEkOsXk1fwswkt?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/es9fintjpsgcovujhklasfsoug6b69bdoetb3hjypump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.898Z"
+    },
+    {
+      "chain": "solana",
+      "address": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
+      "name": "🫧 Bubbles is the social and copy trading terminal for crypto",
+      "symbol": "",
+      "description": "🫧 Bubbles is the social and copy trading terminal for crypto. We track the most profitable traders and KOLs across the whole crypto space and show every move they make live on one bubble map.\n\nCopy any trader in one click and set your own take profit and stop loss. Post a Thesis on tokens you hold, follow what top wallets are buying, and earn rewards for being active.\n\nKOLs earn a share of the fees from everyone who copies them. The more you win, the more people copy your trades.\n\nTrade like the best on Bubbles",
+      "image": "4xERh6J0v00DWEI_",
+      "url": "https://dexscreener.com/solana/dnerjkigs1xz5rcbdtu9a2acxvskscmnsihwy9yypump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "8UNQV1W9tV13YKJ2kn48yLbrqNmFiYNN43RL6S49pump",
+      "name": "The Glass Bank",
+      "symbol": "",
+      "description": "The Glass Bank. This room shows nothing. Pay the door in x402, take a blind-signed Mask, speak unnamed.",
+      "image": "https://cdn.dexscreener.com/cms/images/XJiNbLfEKIrlbsSU?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/8unqv1w9tv13ykj2kn48ylbrqnmfiynn43rl6s49pump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "12XbVdAszAGw6rviPP1P7q3rxhpbUJUcrnZNfP8Qfunz",
+      "name": "The official coin of FUNZ, the Solana launchpad where your idea becomes your coi",
+      "symbol": "",
+      "description": "The official coin of FUNZ, the Solana launchpad where your idea becomes your coin.\n50% of $FUNZ creator fees are used for automatic buyback & burn, run on-chain by the program.\n\nOn FUNZ, creators can launch with:\n• Auto buyback & burn\n• Support: share fees with any wallet, sent automatically\n• Fair presale: same price for everyone\n• Token lock, every pair (SOL, stocks, memes, custom)",
+      "image": "https://cdn.dexscreener.com/cms/images/vlsUvHfss7w1Amql?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/12xbvdaszagw6rvipp1p7q3rxhpbujucrnznfp8qfunz",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "A39LprdkW88LqaXKmAvnoH3EjTJ5uMQynsRbWzEjLmsU",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/VtYaofK8vZqxfNYj?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/a39lprdkw88lqaxkmavnoh3ejtj5umqynsrbwzejlmsu",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/LShvbl8KGaKTvuME?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/bi59tgkzgla7zvrz1bx3ypg6cj8wwfzwfnc5facapump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "EiYnLUuc8ondojNx7aBBq6gcrYESop3qe6fXHnswpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/7HLHdS7SYbgQ5_L3?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/eiynluuc8ondojnx7abbq6gcryesop3qe6fxhnswpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "7oouLaJjqFVGRS1ZjGrPLRLTAx9pGpRtoAfydQcrpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/nuASLDtmrzbc2v0T?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/7ooulajjqfvgrs1zjgrplrltax9pgprtoafydqcrpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xE9Ece98Ff3711773b220d2038aFA21026B35702c",
+      "name": "Motion Inu",
+      "symbol": "",
+      "description": "Motion Inu",
+      "image": "https://cdn.dexscreener.com/cms/images/Dz5EzqG9IDxhyYM7?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/robinhood/0xe9ece98ff3711773b220d2038afa21026b35702c",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xaFdA71A7060018Bb052c73CAC5881f059fFeCccC",
+      "name": "There’s a new face on base, and he’s really, really fast",
+      "symbol": "",
+      "description": "There’s a new face on base, and he’s really, really fast.\n\n50% of fees go to holder dividends",
+      "image": "https://cdn.dexscreener.com/cms/images/4fqLuyWIFK3enQ5z?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/base/0xafda71a7060018bb052c73cac5881f059ffecccc",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "GGVs673aVEFBvNZ6ZE4fPhojDSveWuatA1FgAD7Wpump",
+      "name": "Commission Of Propaganda Everywhere",
+      "symbol": "",
+      "description": "Commission Of Propaganda Everywhere",
+      "image": "https://cdn.dexscreener.com/cms/images/N1G7nlrFxBuDfdST?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/ggvs673avefbvnz6ze4fphojdsvewuata1fgad7wpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xa5A58A72047d67d27f4E3055494d53ee6901D99e",
+      "name": "he platform token for Backstop the launchpad where every coin has a floor, and $",
+      "symbol": "",
+      "description": "he platform token for Backstop the launchpad where every coin has a floor, and $BACKSTOP plays by its own rule. A fee-funded redemption floor and locked LP from block one",
+      "image": "-I2mZcEsLIea6GI0",
+      "url": "https://dexscreener.com/robinhood/0xa5a58a72047d67d27f4e3055494d53ee6901d99e",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "53vE6EeWAnm3gsRpfpZyYmvhFggbvA7uN3dmTAdipump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/6RYJaD6XrZsB6YMd?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/53ve6eewanm3gsrpfpzyymvhfggbva7un3dmtadipump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump",
+      "name": "VETO",
+      "symbol": "",
+      "description": "VETO",
+      "image": "https://cdn.dexscreener.com/cms/images/Lv6dtMZ5yYOAzUZ8?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/hqstirvdp2cb6s6p3v6wwe23r8k4ep9wnx9gs3ylpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "HSF72vVdbSAbjjAfru1d6PhTavbSo3pd2gJvKVLvpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/iLdCG2jJ5sIArVDe?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/hsf72vvdbsabjjafru1d6phtavbso3pd2gjvkvlvpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "DQFsVZb1duDtkh4DqmupKYmY8dFvy83ss7Meh2T1pump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/i6_055KKCSQ9xvMy?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/dqfsvzb1dudtkh4dqmupkymy8dfvy83ss7meh2t1pump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "8GpeEJZ7ubtVjR4cNLFChbtAENtxGHkMeYt39tN1xJiG",
+      "name": "$TEST is the first coin launched on JiG",
+      "symbol": "",
+      "description": "$TEST is the first coin launched on JiG. On Jig you turn a prompt or a single picture into a whole NFT collection, mint it on Solana, then launch a coin that belongs to it. Every trade feeds the coin's flywheel and buys JIG, NFT holders get an airdrop, and the liquidity is locked for good. To celebrate the test going live: Crash Test Dummies, just 500 NFTs, free to mint (small Jig fee only). Help yourselves. Crash test passed.",
+      "image": "https://cdn.dexscreener.com/cms/images/jGCAjyr8lSQgwvR3?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/8gpeejz7ubtvjr4cnlfchbtaentxghkmeyt39tn1xjig",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
+      "name": "Giga Titty Ass ($GTA) is a Solana meme coin starring a fearless anime street rac",
+      "symbol": "",
+      "description": "Giga Titty Ass ($GTA) is a Solana meme coin starring a fearless anime street racer who takes her hot-pink convertible out when the neon lights come on.",
+      "image": "https://cdn.dexscreener.com/cms/images/uGtTy6AkeGUCnA2H?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/9vreeqstcttpscdzbihwlrb4xcjsn91ycojfldyopump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "BB7fP4aSisRKkVZ42Z5BNYybV48j3tzVhEUCD8y3pump",
+      "name": "Turn your memecoins & stocks into a card you can spend anywhere",
+      "symbol": "",
+      "description": "Turn your memecoins & stocks into a card you can spend anywhere. \nWorks with Apple Pay, Google Pay & Samsung Pay.\n\nBuilt on Solana Chain",
+      "image": "https://cdn.dexscreener.com/cms/images/iOf5bW62lWHIGjax?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/bb7fp4asisrkkvz42z5bnyybv48j3tzvheucd8y3pump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "A2LXQgwjW4pWRFNFctN9r96zzzCLB3Cd3xvFLekVQfcN",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/2Ec7xOLZO08KbDIp?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/a2lxqgwjw4pwrfnfctn9r96zzzclb3cd3xvflekvqfcn",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "38bXdDFTuGC8wsqzwh1HAGx9ciqp3EWp5EaPYa3nUV3N",
+      "name": "One line becomes a working app and its own coin",
+      "symbol": "",
+      "description": "One line becomes a working app and its own coin. Hold $WYTH to build, stake it for AI capacity, pay with it and part of every payment burns. Why not both.",
+      "image": "https://cdn.dexscreener.com/cms/images/4C-iJ0N9ZELcV7Mb?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/38bxddftugc8wsqzwh1hagx9ciqp3ewp5eapya3nuv3n",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Ge9u2FUrrcDVZmEpQgyRqPhcxXABWDz4kJWQ2KQBpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/Ibd0JP700Fje_hPl?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/ge9u2furrcdvzmepqgyrqphcxxabwdz4kjwq2kqbpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "81KNhgSwaCnWGR6PFS68E58WoYvwFeJ1AtE9KsGipump",
+      "name": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both som",
+      "symbol": "",
+      "description": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's butt / curvs designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026\n\nTemplates like these (The QRT) and actual Frutiger Aero Yam art is going viral across all social media’s",
+      "image": "https://cdn.dexscreener.com/cms/images/Mmn8dfBgRc3pigM_?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/81knhgswacnwgr6pfs68e58woyvwfej1ate9ksgipump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "GY8qWXwZPiYuSadJRwRrJLZPhrXTj7pNVqdkfxoPpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/LZtrj2XI6Jn623rD?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/gy8qwxwzpiyusadjrwrrjlzphrxtj7pnvqdkfxoppump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "16nwYKMNG56HrFTuPKKMVapBhoAGvHUpEH2UzMYnxTE",
+      "name": "The Penguin",
+      "symbol": "",
+      "description": "The Penguin",
+      "image": "https://cdn.dexscreener.com/cms/images/67w2bYYrgOgFRqH_?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/16nwykmng56hrftupkkmvapbhoagvhupeh2uzmynxte",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "J1DUE6yxhWsfh1o8eyLtBpuGWJ6os7pCV7huwMhVpump",
+      "name": "Create AI agents, inscribe them on Solana, and run them directly in your browser",
+      "symbol": "",
+      "description": "Create AI agents, inscribe them on Solana, and run them directly in your browser.",
+      "image": "https://cdn.dexscreener.com/cms/images/Q57iRXloDlm6HCeN?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/j1due6yxhwsfh1o8eyltbpugwj6os7pcv7huwmhvpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "BUuAR8UvcW9ypN5zzfYXAJjAmwno6o8BxEeHXw8xpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/YUQON46INRGb_1_N?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/buuar8uvcw9ypn5zzfyxajjamwno6o8bxeehxw8xpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Fv1nJu3zeA5vrwaqAdypNyvwAQVVNmfMgTGPAE4YKp2e",
+      "name": "The streets of Vice City are about to come alive again, and $RICO is ready to be",
+      "symbol": "",
+      "description": "The streets of Vice City are about to come alive again, and $RICO is ready to become part of the next big GTA story.\n\nGTA 6 is nearly here. $RICO is already on the map.",
+      "image": "zNDKPLDbTSp-fJhr",
+      "url": "https://dexscreener.com/solana/fv1nju3zea5vrwaqadypnyvwaqvvnmfmgtgpae4ykp2e",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+      "name": "COGE = Commission on Government Efficiency",
+      "symbol": "",
+      "description": "COGE = Commission on Government Efficiency",
+      "image": "fXzqIRGbvcCmPMAq",
+      "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "F2AvkmDtZdXbWXaS1ja8Mjgjy54zsHhDErWzeFCNpump",
+      "name": "Sending RWA stocks made as simple as sending a text",
+      "symbol": "",
+      "description": "Sending RWA stocks made as simple as sending a text. No wallet required.",
+      "image": "https://cdn.dexscreener.com/cms/images/lmgsBuwnmoo4-UVv?width=64&height=64&fit=crop&quality=95&format=auto",
+      "url": "https://dexscreener.com/solana/f2avkmdtzdxbwxas1ja8mjgjy54zshhderwzefcnpump",
+      "source": "DEX profiles",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
+      "name": "Oak Agent Kit builds AI infrastructure for the agentic economy on Robinhood Chai",
+      "symbol": "",
+      "description": "Oak Agent Kit builds AI infrastructure for the agentic economy on Robinhood Chain. Our first product is live now: Oak MCP, giving AI agents efficient connections to projects on Robinhood Chain, with subscriptions powered by $OAK.",
+      "image": "iaxeBSPnmDpqiFFD",
+      "url": "https://dexscreener.com/robinhood/0x6511c233790ec10f7d673c64dc82c3f941d57828",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xC9675fe679C7d4e1b94416F66D61c96127eb964a",
+      "name": "The Robinhood CEO turns into a Giga Chad, his name is Giga Tenev",
+      "symbol": "",
+      "description": "The Robinhood CEO turns into a Giga Chad, his name is Giga Tenev.",
+      "image": "iVTXNRQ4OIoijASj",
+      "url": "https://dexscreener.com/robinhood/0xc9675fe679c7d4e1b94416f66d61c96127eb964a",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "EiMueMXDdz9QRyQjbHzoh68KvNFZ3gAAZ6BboeGnpump",
+      "name": "🎨 American GothThic ($GTHIC)",
+      "symbol": "",
+      "description": "🎨 American GothThic ($GTHIC)\n\nThe American classic just got a whole lot THICCER. 🍑🔥\n\nInspired by Grant Wood's legendary American Gothic, we've turned a timeless masterpiece into a masterpiece of meme culture.\n\nShe's got the assets. He's got the pitchfork. We've got the memes. ₿\n\nNo utility. No promises. Just big art, bigger laughs, and a farmer who can't believe his eyes. 👀\n\n$GTHIC — Making American Art THICC Again. 🇺🇸",
+      "image": "JpAbPAVoDkdSOxSM",
+      "url": "https://dexscreener.com/solana/eimuemxddz9qryqjbhzoh68kvnfz3gaaz6bboegnpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "Yr7Gf_TzVVbroMC3",
+      "url": "https://dexscreener.com/solana/fp4jkqeckykbkhb9imu9nsdeo71hwgq2q9qtxaakpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "97dcHRQ54TMNas9BFgMpX28CBJF5ZZYVvHxzyrvtBAGS",
+      "name": "DeRug is a holder-driven ecosystem for rugged and abandoned coins with real comm",
+      "symbol": "",
+      "description": "DeRug is a holder-driven ecosystem for rugged and abandoned coins with real communities. Holders nominate, vote, and each week creator rewards are used to gradually buy the winning coin.",
+      "image": "4vWD8S8p0az31eXS",
+      "url": "https://dexscreener.com/solana/97dchrq54tmnas9bfgmpx28cbjf5zzyvvhxzyrvtbags",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "9iaXwjVAtRQmDKuYuxMmT5GBKiVJ3dQ4ji1vWkEXY1Jz",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "",
+      "url": "https://dexscreener.com/solana/9iaxwjvatrqmdkuyuxmmt5gbkivj3dq4ji1vwkexy1jz",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "E4LtkkDAv5fPL7N4zLZMnFgfwu6WjVRGKnjTbHVTpump",
+      "name": "Bluxel by Pippin Creator; 100% fees to Yohei",
+      "symbol": "",
+      "description": "Bluxel by Pippin Creator; 100% fees to Yohei",
+      "image": "92J9tpZmMhKQObHH",
+      "url": "https://dexscreener.com/solana/e4ltkkdav5fpl7n4zlzmnfgfwu6wjvrgknjtbhvtpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
+      "name": "GTA6 runner",
+      "symbol": "",
+      "description": "GTA6 runner",
+      "image": "hcrGsrtMQDquzWSY",
+      "url": "https://dexscreener.com/solana/519amdtbqcpvk8ctycg2i9kjqh62zskt5uvfn71upump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Czrf9mnkgtyRxqaG1Fmzhhn3afYGJwh4xB1G9cBzpump",
+      "name": "Unknown",
+      "symbol": "",
+      "description": "",
+      "image": "aHqYv7hn8jSGVp0s",
+      "url": "https://dexscreener.com/solana/czrf9mnkgtyrxqag1fmzhhn3afygjwh4xb1g9cbzpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump",
+      "name": "Leonida is repeatedly called “the Goodtime State",
+      "symbol": "",
+      "description": "Leonida is repeatedly called “the Goodtime State.” Rockstar even has a “Goodtime State – Vice City Collection” merch box built around Macca the Gator.",
+      "image": "2d782tVMJXKD-C0H",
+      "url": "https://dexscreener.com/solana/eyo1o3qykqwdvp6utk9dqltzj2bbtojdn4tmwb2dpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "name": "Someone asked AI to build a game the entire crypto space would love",
+      "symbol": "",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. 🪙 Built & controlled by Agentic AI.",
+      "image": "2bajn2a05AdQGV-4",
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "name": "The most anticipated game in history",
+      "symbol": "",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO",
+      "image": "-8CCNt5h1g4Fnvqj",
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump",
+      "name": "Liberty Games Coin ($LIBCOIN) is the Solana-based token of Liberty Games, a brow",
+      "symbol": "",
+      "description": "Liberty Games Coin ($LIBCOIN) is the Solana-based token of Liberty Games, a browser gaming hub bringing arcade action and casual challenges to mobile and desktop players. With a live gaming platform at libertygames app,Liberty Games connects gaming and crypto around one growing brand. Play the games. Join the community. Be part of what comes next.",
+      "image": "-4G2LJF7mQt4o3-W",
+      "url": "https://dexscreener.com/solana/2uxjhoidyefqxjrcs8qt23jsbqkfcppca8ywbyzupump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn",
+      "name": "The bull market has a mascot problem",
+      "symbol": "",
+      "description": "The bull market has a mascot problem. Everyone claims it. Almost nobody builds it. \n\nBUL is the fix: a community token where the herd does the work and the chart is just the receipt. 🐂\n\nBears cope in the replies. Bulls ship in the group chat. No closed dev circle. No “trust the team” TED talk. If you can meme, design, raid, write, or just refuse to be quiet, you are already on the build team. The coin is the flag. You are the hands.\n\nMost memecoins rent attention for six hours and vanish when the timeline gets bored. This one is on-chain on purpose. Attention dies. A holder base and a public record do not. Every post, every joke, every person who shows up leaves a mark the bears cannot delete.",
+      "image": "mGXdp77x5wKk5Vhs",
+      "url": "https://dexscreener.com/solana/gywksn2ah7dqlypezajezmfxuu2h4nwfgvgjhfydvegn",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x000DE658153f47f23e92973C8EB1e89762703676",
+      "name": "fobofun is a launchpad on Robinhood Chain",
+      "symbol": "",
+      "description": "fobofun is a launchpad on Robinhood Chain.\nEvery token gets a floor that only goes up.\nPump more. Dump less.",
+      "image": "q-Z2BGrKBNIkf5RH",
+      "url": "https://dexscreener.com/robinhood/0x000de658153f47f23e92973c8eb1e89762703676",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x7BaE7a90c7328969614B3EFbeE8C4A9026beFEA8",
+      "name": "Flora is the official mascot of fobofun, the launchpad where every coin has a fl",
+      "symbol": "",
+      "description": "Flora is the official mascot of fobofun, the launchpad where every coin has a floor price that only moves up.",
+      "image": "dsp2ifdXTzTKA5Bx",
+      "url": "https://dexscreener.com/robinhood/0x7bae7a90c7328969614b3efbee8c4a9026befea8",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xF95edD7D5b1616315B4bf49cB222573d4a618888",
+      "name": "The modular launchpad built on Pons/Robinhood",
+      "symbol": "",
+      "description": "The modular launchpad built on Pons/Robinhood.",
+      "image": "8lDo09UIAshZp4D-",
+      "url": "https://dexscreener.com/robinhood/0xf95edd7d5b1616315b4bf49cb222573d4a618888",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6104df5Db9ee0Bd9165fF480Db2Fa054113796F7",
+      "name": "$KURO — THE JAPANESE ANIME CAT THAT NEVER SLEEPS!",
+      "symbol": "",
+      "description": "$KURO — THE JAPANESE ANIME CAT THAT NEVER SLEEPS!\n\n$KURO is more than a meme coin! We’re building an entire anime universe combining Japanese-inspired art, original cartoons, and powerful AI technology!\n\nTHE ARTIST & ANIME UNIVERSE\n\nFeaturing @getturtled, the artist behind $TOSHI!\n\nWe’ve been invited to SIX major anime competitions and showcases, with plans to bring $KURO to a global audience!\n\nOur original anime cartoon series is in development, with brand-new characters, exciting storylines, and surprise appearances planned!\n\nKUROTECH — POWERFUL AI AUTOMATION\n\nOur technology offers more features than $FEBU, including:\n\n• AI-powered meme creation\n• Automated X posts, replies & reposts\n• Smart tagging & engagement\n• AI content generation & scheduling\n• 24/7 social media automation\n\nUSE KUROTECH & EARN $KURO!\n\nSign up, connect your social accounts, and become eligible for monthly $KURO airdrops!\n\nCOMING SOON\n\n• Exclusive $KURO NFT collection\n• New anime characters & original artwork\n• Cartoon development & anime competitions\n• More AI technology upgrades\n• NFT holder incentives & rewards\n\nOUR VISION\n\nWe’re taking $KURO beyond crypto and into the world of anime, cartoons, comics, and entertainment!\n\nONE CAT. ENDLESS AUTOMATION. AN ENTIRE ANIME UNIVERSE.",
+      "image": "icpu326GTEvetoHN",
+      "url": "https://dexscreener.com/robinhood/0x6104df5db9ee0bd9165ff480db2fa054113796f7",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "64MWN63e19qaw2HEecX6btUJSSbWwZgrw74bjFVVpump",
+      "name": "A quiet presence on Solana",
+      "symbol": "",
+      "description": "A quiet presence on Solana.\nNature. Music. Independent.\nLet the world breathe\nSince November 27, 2025",
+      "image": "s8U1_2rO4RQtW1_V",
+      "url": "https://dexscreener.com/solana/64mwn63e19qaw2heecx6btujssbwwzgrw74bjfvvpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "4QnrCt8AbhoD4Th2a3ph6QMsiwLKA2rrZnJN9aZpJnzM",
+      "name": "Solcrypt is a privacy toolkit for Solana",
+      "symbol": "",
+      "description": "Solcrypt is a privacy toolkit for Solana. Send SOL as a private link anyone can claim to any wallet, swap at the best price.",
+      "image": "wsK2A-IeiNcREnT9",
+      "url": "https://dexscreener.com/solana/4qnrct8abhod4th2a3ph6qmsiwlka2rrznjn9azpjnzm",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "name": "Meet $GLITCH — the GTA 6-inspired memecoin on Solana",
+      "symbol": "",
+      "description": "Meet $GLITCH — the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringing GTA-style chaos on-chain.\n\nBuilt around the hype for Grand Theft Auto VI, Infinite Money Glitch is 100% fair-launched, with no presale and no taxes.\n\nGTA 6 is the narrative. $GLITCH is the coin.",
+      "image": "gAu3LdjS988GlL3f",
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+      "name": "OREN is an AI-powered trading terminal for tokenized stocks on Solana, combining",
+      "symbol": "",
+      "description": "OREN is an AI-powered trading terminal for tokenized stocks on Solana, combining market data, AI insights, and on-chain execution in one interface. Discover and analyze assets, track portfolios, build stock mixes, and execute multiple trades in a single transaction.",
+      "image": "_iX7TDjGlddJf8iu",
+      "url": "https://dexscreener.com/solana/57vaamsnajxkvultaz7fsi6grn3bhrjfjsjv1oknpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "Cx3onEtJqfzfqbVG1mnveskpvA7uMWpq31hhZx2jpump",
+      "name": "Yes, that's me",
+      "symbol": "",
+      "description": "Yes, that's me. Everyone deserves a little joy, a smile, and some fun. May the Snake Pattern be with you 🐍",
+      "image": "5tKxgZdvzSGe_XbK",
+      "url": "https://dexscreener.com/solana/cx3onetjqfzfqbvg1mnveskpva7umwpq31hhzx2jpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
+      "name": "No name",
+      "symbol": "",
+      "description": "No name. No identity. No explanation. Just a blindfolded ape and a blank sheet of paper. The internet wants to know everything, but this ape reveals nothing. The mystery is the meme. Nothing to see here.",
+      "image": "HZqHa5V-uNTn41jg",
+      "url": "https://dexscreener.com/solana/ewx2t1p2pmgtssq2bi6xtqyxpc5krr4p2fxpfn4qpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
+      "name": "GTA6DOG",
+      "symbol": "",
+      "description": "GTA6DOG",
+      "image": "LRElZDtg1NX-r3Jf",
+      "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
+      "source": "DEX boosts",
+      "seenAt": "2026-11-05T22:07:21.899Z"
+    },
+    {
+      "chain": "solana",
+      "address": "7qi7cehayDeuSss3J5RQ8wTseLhqAnRZNU1duLv1pump",
+      "name": "mememan",
+      "symbol": "mememan",
+      "description": "",
+      "source": "Pump.fun via PumpPortal",
+      "seenAt": "2026-11-05T22:07:22.793Z",
+      "url": "https://pump.fun/coin/7qi7cehayDeuSss3J5RQ8wTseLhqAnRZNU1duLv1pump"
+    },
+    {
+      "chain": "solana",
+      "address": "J6eYfCsmtKvX5gZvgPDSVjPtsgPg46HsifsVeqxUpump",
+      "name": "Dose",
+      "symbol": "Dose",
+      "description": "",
+      "source": "Pump.fun via PumpPortal",
+      "seenAt": "2026-11-05T22:07:23.020Z",
+      "url": "https://pump.fun/coin/J6eYfCsmtKvX5gZvgPDSVjPtsgPg46HsifsVeqxUpump"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Meta warns that election backlash agains",
+      "ticker": "M",
+      "description": "Concept based on source headline: Meta warns that election backlash against data centers could make AI expansion harder",
+      "utility": "Research-backed meme/news tracker for Meta warns that election backlash agains",
+      "imagePrompt": "Cartoon mascot depicting Meta warns that election backlash agains",
+      "category": [
+        "AI",
+        "Politics"
+      ],
+      "duplicateMatches": [],
+      "score": 30,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Mark Cuban says Facebook knowingly runs ",
+      "ticker": "M",
+      "description": "Concept based on source headline: Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
+      "utility": "Research-backed meme/news tracker for Mark Cuban says Facebook knowingly runs ",
+      "imagePrompt": "Cartoon mascot depicting Mark Cuban says Facebook knowingly runs ",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Big Tech Stocks Soar as Traders Bet Democrats Will Slow AI Spend",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Big Tech Stocks Soar as Traders Bet Demo",
+      "ticker": "B",
+      "description": "Concept based on source headline: Big Tech Stocks Soar as Traders Bet Democrats Will Slow AI Spend",
+      "utility": "Research-backed meme/news tracker for Big Tech Stocks Soar as Traders Bet Demo",
+      "imagePrompt": "Cartoon mascot depicting Big Tech Stocks Soar as Traders Bet Demo",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting”",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Hideo Kojima says AI lacks what makes th",
+      "ticker": "H",
+      "description": "Concept based on source headline: Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting”",
+      "utility": "Research-backed meme/news tracker for Hideo Kojima says AI lacks what makes th",
+      "imagePrompt": "Cartoon mascot depicting Hideo Kojima says AI lacks what makes th",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Congresswoman calls for artificial superintelligence ban after Democrats' seismic midterm sweep — demands regulation of 'out of control' industry and pause on advanced AI",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Congresswoman calls for artificial super",
+      "ticker": "C",
+      "description": "Concept based on source headline: Congresswoman calls for artificial superintelligence ban after Democrats' seismic midterm sweep — demands regulation of 'out of control' industry and pause on advanced AI",
+      "utility": "Research-backed meme/news tracker for Congresswoman calls for artificial super",
+      "imagePrompt": "Cartoon mascot depicting Congresswoman calls for artificial super",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Mayor Zohran Mamdani Blasts Google After Schools Are Told They Can't Separate Search From AI",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Mayor Zohran Mamdani Blasts Google After",
+      "ticker": "M",
+      "description": "Concept based on source headline: Mayor Zohran Mamdani Blasts Google After Schools Are Told They Can't Separate Search From AI",
+      "utility": "Research-backed meme/news tracker for Mayor Zohran Mamdani Blasts Google After",
+      "imagePrompt": "Cartoon mascot depicting Mayor Zohran Mamdani Blasts Google After",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "New Jersey Wants to Make AI Companies Pay $5,000 for Every Violation",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "New Jersey Wants to Make AI Companies Pa",
+      "ticker": "N",
+      "description": "Concept based on source headline: New Jersey Wants to Make AI Companies Pay $5,000 for Every Violation",
+      "utility": "Research-backed meme/news tracker for New Jersey Wants to Make AI Companies Pa",
+      "imagePrompt": "Cartoon mascot depicting New Jersey Wants to Make AI Companies Pa",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Google's Massive Minnesota AI Data Center Got Approved After Protests Shut Down Two City Meetings",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Google s Massive Minnesota AI Data Cente",
+      "ticker": "G",
+      "description": "Concept based on source headline: Google's Massive Minnesota AI Data Center Got Approved After Protests Shut Down Two City Meetings",
+      "utility": "Research-backed meme/news tracker for Google s Massive Minnesota AI Data Cente",
+      "imagePrompt": "Cartoon mascot depicting Google s Massive Minnesota AI Data Cente",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Sam Altman faces fierce backlash after saying society must accept 'Bad Things' for AI progress",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Sam Altman faces fierce backlash after s",
+      "ticker": "S",
+      "description": "Concept based on source headline: Sam Altman faces fierce backlash after saying society must accept 'Bad Things' for AI progress",
+      "utility": "Research-backed meme/news tracker for Sam Altman faces fierce backlash after s",
+      "imagePrompt": "Cartoon mascot depicting Sam Altman faces fierce backlash after s",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Tech stocks plunge on worries about AI a",
+      "ticker": "T",
+      "description": "Concept based on source headline: Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
+      "utility": "Research-backed meme/news tracker for Tech stocks plunge on worries about AI a",
+      "imagePrompt": "Cartoon mascot depicting Tech stocks plunge on worries about AI a",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google's AI policy",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "DuckDuckGo pitches itself to schools ami",
+      "ticker": "D",
+      "description": "Concept based on source headline: DuckDuckGo pitches itself to schools amid backlash over Google's AI policy",
+      "utility": "Research-backed meme/news tracker for DuckDuckGo pitches itself to schools ami",
+      "imagePrompt": "Cartoon mascot depicting DuckDuckGo pitches itself to schools ami",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "AI agents went shopping for TVs and laptops—and messed up nearly 50% of the time, study shows",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "AI agents went shopping for TVs and lapt",
+      "ticker": "A",
+      "description": "Concept based on source headline: AI agents went shopping for TVs and laptops—and messed up nearly 50% of the time, study shows",
+      "utility": "Research-backed meme/news tracker for AI agents went shopping for TVs and lapt",
+      "imagePrompt": "Cartoon mascot depicting AI agents went shopping for TVs and lapt",
+      "category": [
+        "AI"
+      ],
+      "duplicateMatches": [],
+      "score": 20,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": ", rounded rectangles, and more]]>",
+      "source": "Hacker News RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "rounded rectangles  and more",
+      "ticker": "R",
+      "description": "Concept based on source headline: , rounded rectangles, and more]]>",
+      "utility": "Research-backed meme/news tracker for rounded rectangles  and more",
+      "imagePrompt": "Cartoon mascot depicting rounded rectangles  and more",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Tech is about to get hammered in Congres",
+      "ticker": "T",
+      "description": "Concept based on source headline: Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
+      "utility": "Research-backed meme/news tracker for Tech is about to get hammered in Congres",
+      "imagePrompt": "Cartoon mascot depicting Tech is about to get hammered in Congres",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Republicans Learn X Is the Echo Chamber",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Republicans Learn X Is the Echo Chamber",
+      "ticker": "R",
+      "description": "Concept based on source headline: Republicans Learn X Is the Echo Chamber",
+      "utility": "Research-backed meme/news tracker for Republicans Learn X Is the Echo Chamber",
+      "imagePrompt": "Cartoon mascot depicting Republicans Learn X Is the Echo Chamber",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Discord is killing its Electron app that can eat 4GB of RAM on Windows 11, and the Rust rebuild uses just 290MB",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Discord is killing its Electron app that",
+      "ticker": "D",
+      "description": "Concept based on source headline: Discord is killing its Electron app that can eat 4GB of RAM on Windows 11, and the Rust rebuild uses just 290MB",
+      "utility": "Research-backed meme/news tracker for Discord is killing its Electron app that",
+      "imagePrompt": "Cartoon mascot depicting Discord is killing its Electron app that",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "'Legend of Zelda' lead says Nintendo doesn't do layoffs because there's &quot;a real benefit&quot; to keeping staff long-term: &quot;We have that base that we can build from&quot;",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Legend of Zelda  lead says Nintendo does",
+      "ticker": "L",
+      "description": "Concept based on source headline: 'Legend of Zelda' lead says Nintendo doesn't do layoffs because there's &quot;a real benefit&quot; to keeping staff long-term: &quot;We have that base that we can build from&quot;",
+      "utility": "Research-backed meme/news tracker for Legend of Zelda  lead says Nintendo does",
+      "imagePrompt": "Cartoon mascot depicting Legend of Zelda  lead says Nintendo does",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "The office increasingly fails to deliver",
+      "ticker": "T",
+      "description": "Concept based on source headline: 'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
+      "utility": "Research-backed meme/news tracker for The office increasingly fails to deliver",
+      "imagePrompt": "Cartoon mascot depicting The office increasingly fails to deliver",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Meta Employees ‘Interacted’ With Pirated Copies of Adult Films, Filing Shows",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Meta Employees  Interacted  With Pirated",
+      "ticker": "M",
+      "description": "Concept based on source headline: Meta Employees ‘Interacted’ With Pirated Copies of Adult Films, Filing Shows",
+      "utility": "Research-backed meme/news tracker for Meta Employees  Interacted  With Pirated",
+      "imagePrompt": "Cartoon mascot depicting Meta Employees  Interacted  With Pirated",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "The Blue Wave Has Tech Bros Scrambling f",
+      "ticker": "T",
+      "description": "Concept based on source headline: The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "utility": "Research-backed meme/news tracker for The Blue Wave Has Tech Bros Scrambling f",
+      "imagePrompt": "Cartoon mascot depicting The Blue Wave Has Tech Bros Scrambling f",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "White House uses The Legend of Zelda: Ocarina of Time imagery in political post, despite previous condemnation from Pokémon Company",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "White House uses The Legend of Zelda  Oc",
+      "ticker": "W",
+      "description": "Concept based on source headline: White House uses The Legend of Zelda: Ocarina of Time imagery in political post, despite previous condemnation from Pokémon Company",
+      "utility": "Research-backed meme/news tracker for White House uses The Legend of Zelda  Oc",
+      "imagePrompt": "Cartoon mascot depicting White House uses The Legend of Zelda  Oc",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Hackers target blood banks by setting freezers to a boiling 230 degrees",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Hackers target blood banks by setting fr",
+      "ticker": "H",
+      "description": "Concept based on source headline: Hackers target blood banks by setting freezers to a boiling 230 degrees",
+      "utility": "Research-backed meme/news tracker for Hackers target blood banks by setting fr",
+      "imagePrompt": "Cartoon mascot depicting Hackers target blood banks by setting fr",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "YouTuber discovers aircraft noise trick that can geolocate your videos to within 100m — 'Doppler effect' pinpoints locations from just 60 seconds of audio",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "YouTuber discovers aircraft noise trick ",
+      "ticker": "Y",
+      "description": "Concept based on source headline: YouTuber discovers aircraft noise trick that can geolocate your videos to within 100m — 'Doppler effect' pinpoints locations from just 60 seconds of audio",
+      "utility": "Research-backed meme/news tracker for YouTuber discovers aircraft noise trick ",
+      "imagePrompt": "Cartoon mascot depicting YouTuber discovers aircraft noise trick ",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "Israeli Company Busted Using Malware Ads To Spy On Starlink Users",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "Israeli Company Busted Using Malware Ads",
+      "ticker": "I",
+      "description": "Concept based on source headline: Israeli Company Busted Using Malware Ads To Spy On Starlink Users",
+      "utility": "Research-backed meme/news tracker for Israeli Company Busted Using Malware Ads",
+      "imagePrompt": "Cartoon mascot depicting Israeli Company Busted Using Malware Ads",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    },
+    {
+      "title": "NASA's Artemis II moon launch tore a hole in Earth's upper atmosphere so huge it disrupted GPS signals",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z",
+      "name": "NASA s Artemis II moon launch tore a hol",
+      "ticker": "N",
+      "description": "Concept based on source headline: NASA's Artemis II moon launch tore a hole in Earth's upper atmosphere so huge it disrupted GPS signals",
+      "utility": "Research-backed meme/news tracker for NASA s Artemis II moon launch tore a hol",
+      "imagePrompt": "Cartoon mascot depicting NASA s Artemis II moon launch tore a hol",
+      "category": [],
+      "duplicateMatches": [],
+      "score": 10,
+      "confidence": "low",
+      "scoreExplanation": "Heuristic relevance only; social momentum and profitability not verified"
+    }
+  ],
+  "signals": [
+    {
+      "title": ", rounded rectangles, and more]]>",
+      "source": "Hacker News RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Republicans Learn X Is the Echo Chamber",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Discord is killing its Electron app that can eat 4GB of RAM on Windows 11, and the Rust rebuild uses just 290MB",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "'Legend of Zelda' lead says Nintendo doesn't do layoffs because there's &quot;a real benefit&quot; to keeping staff long-term: &quot;We have that base that we can build from&quot;",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Big Tech Stocks Soar as Traders Bet Democrats Will Slow AI Spend",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting”",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Congresswoman calls for artificial superintelligence ban after Democrats' seismic midterm sweep — demands regulation of 'out of control' industry and pause on advanced AI",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Meta Employees ‘Interacted’ With Pirated Copies of Adult Films, Filing Shows",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Mayor Zohran Mamdani Blasts Google After Schools Are Told They Can't Separate Search From AI",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "White House uses The Legend of Zelda: Ocarina of Time imagery in political post, despite previous condemnation from Pokémon Company",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Hackers target blood banks by setting freezers to a boiling 230 degrees",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "New Jersey Wants to Make AI Companies Pay $5,000 for Every Violation",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Google's Massive Minnesota AI Data Center Got Approved After Protests Shut Down Two City Meetings",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Sam Altman faces fierce backlash after saying society must accept 'Bad Things' for AI progress",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google's AI policy",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "YouTuber discovers aircraft noise trick that can geolocate your videos to within 100m — 'Doppler effect' pinpoints locations from just 60 seconds of audio",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "Israeli Company Busted Using Malware Ads To Spy On Starlink Users",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "AI agents went shopping for TVs and laptops—and messed up nearly 50% of the time, study shows",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    },
+    {
+      "title": "NASA's Artemis II moon launch tore a hole in Earth's upper atmosphere so huge it disrupted GPS signals",
+      "source": "Reddit technology RSS",
+      "seenAt": "2026-11-05T22:07:21.900Z"
+    }
+  ]
 }
