@@ -1,3 +1,4 @@
+import {analyze} from './narratives.mjs';
 import {pumpFunSample,xRecent,gmgnNews,ponsEvents} from './optional-sources.mjs';
 import fs from 'node:fs/promises';
 const file=new URL('../data.json',import.meta.url);
@@ -25,6 +26,7 @@ for(let i=0;i<optional.length;i++){
 // Refresh candidate list after optional social/news sources are incorporated.
 const refreshed=signals.slice(-100).map(x=>{const tags=Object.entries(categories).filter(([_,re])=>re.test(x.title)).map(([k])=>k);const words=x.title.replace(/[^a-z0-9 ]/gi,' ').trim().split(/\\s+/).filter(w=>w.length>3);const name=words.slice(0,3).join(' ').slice(0,40)||'Untitled';const ticker=words.slice(0,2).map(w=>w[0]).join('').toUpperCase().slice(0,8)||'MEME';return {...x,name,ticker,description:'Concept based on source headline: '+x.title,utility:'Research-backed meme/news tracker for '+name,imagePrompt:'Cartoon mascot depicting '+name,category:tags,duplicateMatches:launches.filter(t=>t.name.toLowerCase()===name.toLowerCase()||t.symbol?.toUpperCase()===ticker).slice(0,10).map(t=>({chain:t.chain,address:t.address})),score:Math.min(50,10+tags.length*10),confidence:'low',scoreExplanation:'Heuristic relevance only; social momentum and profitability not verified'}}).sort((a,b)=>b.score-a.score).slice(0,100);
 candidates.splice(0,candidates.length,...refreshed);
-const result={updatedAt:new Date().toISOString(),health,launches,candidates,signals};
+const intelligence=analyze(launches,signals);
+const result={updatedAt:new Date().toISOString(),health,launches,candidates,signals,...intelligence};
 await fs.writeFile(file,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({updatedAt:result.updatedAt,launches:launches.length,signals:signals.length,candidates:candidates.length,health}));
