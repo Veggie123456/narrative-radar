@@ -1,0 +1,1 @@
+{"name":"narrative-radar","private":true,"type":"module","scripts":{"scan":"node scanner/scan.mjs","test":"node --test"}}
