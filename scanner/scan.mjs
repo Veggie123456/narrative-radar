@@ -1,3 +1,4 @@
+import {pumpFunSample,xRecent,gmgnNews,ponsEvents} from './optional-sources.mjs';
 import fs from 'node:fs/promises';
 const file=new URL('../data.json',import.meta.url);
 const previous=await fs.readFile(file,'utf8').then(JSON.parse).catch(()=>({launches:[],signals:[],candidates:[]}));
@@ -13,7 +14,17 @@ launches=merged(launches,previous.launches||[],x=>x.chain+':'+x.address,2000);
 signals=merged(signals,previous.signals||[],x=>x.title.toLowerCase(),600);
 const categories={AI:/\b(ai|agent|robot|gpt|llm)\b/i,Animals:/\b(cat|dog|frog|bird|pepe)\b/i,Gaming:/\b(game|gaming|pokemon|play)\b/i,Politics:/\b(election|president|politic)\b/i,Memes:/\b(meme|viral|joke)\b/i};
 const candidates=signals.slice(-100).map(x=>{const tags=Object.entries(categories).filter(([_,re])=>re.test(x.title)).map(([k])=>k);const words=x.title.replace(/[^a-z0-9 ]/gi,' ').trim().split(/\s+/).filter(w=>w.length>3);const name=words.slice(0,3).join(' ').slice(0,40)||'Untitled';const ticker=words.slice(0,2).map(w=>w[0]).join('').toUpperCase().slice(0,8)||'MEME';const matches=launches.filter(t=>t.name.toLowerCase()===name.toLowerCase()||t.symbol?.toUpperCase()===ticker).slice(0,10);return {...x,name,ticker,description:'Concept based on news headline: '+x.title,utility:'Research-backed meme/news tracker for '+name,imagePrompt:'Cartoon mascot depicting '+name,category:tags,duplicateMatches:matches.map(t=>({chain:t.chain,address:t.address})),score:Math.min(50,10+tags.length*10),confidence:'low',scoreExplanation:'Heuristic keyword relevance only; no social momentum or trade profitability verified'}}).sort((a,b)=>b.score-a.score).slice(0,100);
-health.push({name:'X / Twitter',ok:false,error:'Authenticated connector required'},{name:'Pump.fun stream',ok:false,error:'Persistent WebSocket collector not configured'},{name:'Pons',ok:false,error:'Chain event collector not configured'},{name:'GMGN',ok:false,error:'Connector not configured'});
+const optional=await Promise.allSettled([pumpFunSample(),xRecent(),gmgnNews(),ponsEvents()]);
+for(let i=0;i<optional.length;i++){
+ const name=['Pump.fun sample','X / Twitter','GMGN','Pons RPC'][i];
+ const v=optional[i].status==='fulfilled'?optional[i].value:{ok:false,events:[],error:String(optional[i].reason)};
+ health.push({name,ok:v.ok,error:v.error||null});
+ if(i===0&&v.events?.length)launches=merged(v.events,launches,x=>x.chain+':'+x.address,2000);
+ if((i===1||i===2)&&v.events?.length)signals=merged(v.events,signals,x=>x.title.toLowerCase(),600);
+}
+// Refresh candidate list after optional social/news sources are incorporated.
+const refreshed=signals.slice(-100).map(x=>{const tags=Object.entries(categories).filter(([_,re])=>re.test(x.title)).map(([k])=>k);const words=x.title.replace(/[^a-z0-9 ]/gi,' ').trim().split(/\\s+/).filter(w=>w.length>3);const name=words.slice(0,3).join(' ').slice(0,40)||'Untitled';const ticker=words.slice(0,2).map(w=>w[0]).join('').toUpperCase().slice(0,8)||'MEME';return {...x,name,ticker,description:'Concept based on source headline: '+x.title,utility:'Research-backed meme/news tracker for '+name,imagePrompt:'Cartoon mascot depicting '+name,category:tags,duplicateMatches:launches.filter(t=>t.name.toLowerCase()===name.toLowerCase()||t.symbol?.toUpperCase()===ticker).slice(0,10).map(t=>({chain:t.chain,address:t.address})),score:Math.min(50,10+tags.length*10),confidence:'low',scoreExplanation:'Heuristic relevance only; social momentum and profitability not verified'}}).sort((a,b)=>b.score-a.score).slice(0,100);
+candidates.splice(0,candidates.length,...refreshed);
 const result={updatedAt:new Date().toISOString(),health,launches,candidates,signals};
 await fs.writeFile(file,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({updatedAt:result.updatedAt,launches:launches.length,signals:signals.length,candidates:candidates.length,health}));
